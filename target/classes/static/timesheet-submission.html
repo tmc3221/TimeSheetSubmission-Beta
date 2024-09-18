@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curtis Consulting Timesheet Submission</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+    <h1>Curtis Consulting</h1>
+</header>
+<main>
+    <h2>Welcome to Curtis Consulting Timesheet Submission</h2>
+    <form id="timesheetForm" enctype="multipart/form-data" action="http://localhost:8080/uploadExcel" method="post">
+        <input type="file" id="fileInput" name="file">
+        <button type="submit">Submit</button>
+    </form>    
+    <!-- Add logo here -->
+    <img src="http://www.curtisconsultingcorp.com/sitebuildercontent/sitebuilderpictures/.pond/CuCoLogo.jpg.w300h258.jpg" alt="Curtis Consulting Logo" class="logo">
+</main>
+<footer>
+    &copy; 2024 Curtis Consulting. All Rights Reserved.
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
